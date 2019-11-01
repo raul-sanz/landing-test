@@ -1,0 +1,55 @@
+@media only screen and (max-width: 800px) {
+  .absolute{
+    position: initial !important;
+  }
+}
+.full-width{
+  height: 100%;
+  width: 100%;
+}
+.pt-20{
+  padding-top:20px;
+}
+.pb-20{
+  padding-bottom:20px;
+}
+.ml-50{
+  margin-left: 50px;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.ml-20{
+  margin-left: 20px;
+}
+.mh-800{
+  max-height: 830px;
+}
+.gradient-blue{
+  background: rgb(2,0,36);
+  background: linear-gradient(344deg, rgba(2,0,36,1) 0%, rgba(3,3,94,1) 25%, rgba(13,53,152,1) 61%, rgba(33,55,155,1) 69%, rgba(66,91,136,1) 88%, rgba(18,77,106,1) 98%);
+}
+
+.button-gradient{
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none !important;
+  color: white;
+}
+.footer-banner{
+  margin: 10px;
+  background-image: url(../assets/background.png);
+}
+
+.absolute{
+  position: absolute;
+}
+
+.outside {
+  position:relative;
+}
+.inside {
+  position: absolute;
+  bottom: 0;
+}
